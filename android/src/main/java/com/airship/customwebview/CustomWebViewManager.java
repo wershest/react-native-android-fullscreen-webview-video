@@ -240,12 +240,12 @@ public class CustomWebViewManager extends SimpleViewManager<WebView> {
 
         @Override
         public void onHostResume() {
-            // do nothing
+            this.onResume();
         }
 
         @Override
         public void onHostPause() {
-            // do nothing
+            this.onPause();
         }
 
         @Override
